@@ -1,6 +1,7 @@
 import React from "react";
 
 import logo from '../logo.svg';
+import IconButton from '@material-ui/core/IconButton';
 
 const Component = props => {
     console.log(props.info)
@@ -13,6 +14,8 @@ const Component = props => {
         <p>
          {props.info}
         </p>
+        <IconButton>fsdlkf</IconButton>
+        <button>fjsdnlf</button>
         <a
           className="App-link"
           href="https://reactjs.org"
