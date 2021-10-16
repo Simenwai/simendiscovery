@@ -14,15 +14,13 @@ const Component = props => {
         <p>
          {props.info}
         </p>
-        <IconButton>fsdlkf</IconButton>
-        <button>fjsdnlf</button>
+        <IconButton>Trykk her</IconButton>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
         </a>
       </header>
     </div>
@@ -31,3 +29,5 @@ const Component = props => {
 };
 
 export default Component;
+
+
