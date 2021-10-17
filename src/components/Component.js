@@ -1,7 +1,5 @@
 import React from "react";
 
-import logo from '../logo.svg';
-
 
 const Component = props => {
     console.log(props.info)
@@ -10,7 +8,6 @@ const Component = props => {
     
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
          {props.info}
         </p>
