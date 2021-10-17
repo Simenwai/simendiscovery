@@ -17,9 +17,13 @@ const Profile = () => {
             </figure>
 
             <div className='profile_information'>
-                Insert Timeline
+                Studie:
                 <br/>
-                <button>My Button</button>
+                LinkedIn:
+                <br/>
+                Født:
+                <br/>
+                <button>Se CV</button>
             </div>
         </div>
     );
