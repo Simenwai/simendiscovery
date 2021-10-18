@@ -3,6 +3,8 @@ import React from 'react'
 /*import CustomTimeline from '../Timeline/Timeline'*/
 
 import './Profile.css'
+/*import CustomButton from '../Button/Button'*/
+import GetAppIcon from '@mui/icons-material/GetApp';
 
 const Profile = () => {
     return (
@@ -23,7 +25,6 @@ const Profile = () => {
                 <br/>
                 Født:
                 <br/>
-                <button>Se CV</button>
             </div>
         </div>
     );

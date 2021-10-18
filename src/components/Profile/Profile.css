@@ -8,6 +8,7 @@
 .profile_name{
     line-height: 18px;
     padding: 20px;
+    color: White;
 }
 
 .profile_name .name {
@@ -26,5 +27,6 @@
 }
 
 .profile_information{
+    color: white;
     text-align: center;
 }

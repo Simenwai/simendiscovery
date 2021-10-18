@@ -12,8 +12,8 @@ var text = "Dette er simen sin app"
 
 function App() {
   return (
-    <Container>
-      <Grid container>
+    <Container className={'top_60'}>
+      <Grid container spacing={7}>
         <Grid item 
         xs={12} 
         sm={12} 
@@ -21,7 +21,7 @@ function App() {
         /*style={{backgroundColor: "blue"}}*/>
           <Profile />
         </Grid> 
-        <Grid item xs style={{backgroundColor: "red"}}>
+        <Grid item xs style={{backgroundColor: 'whitesmoke'}}>
           <Header/>
           <Application/>
           <Attest/>
