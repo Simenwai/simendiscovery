@@ -3,7 +3,7 @@ import React from 'react'
 /*import CustomTimeline from '../Timeline/Timeline'*/
 
 import './Profile.css'
-/*import CustomButton from '../Button/Button'*/
+import CustomButton from '../Button/Button'
 /*import GetAppIcon from '@mui/icons-material/GetApp';*/
 
 const Profile = () => {
@@ -24,7 +24,9 @@ const Profile = () => {
                 LinkedIn:
                 <br/>
                 Født:
-                <br/>
+                <div className ="button_container">
+                    <CustomButton text={"Last ned CV"} /*icon={GetAppIcon} *//>
+                </div>
             </div>
         </div>
     );
