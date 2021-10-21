@@ -23,7 +23,7 @@ function App() {
         <Grid item xs style={{backgroundColor: 'whitesmoke'}}>
           <Header/>
           <Application/>
-          <Attest/>
+          <Attest className = 'attest'/>
         </Grid>
       </Grid>
     </Container>

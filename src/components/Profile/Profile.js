@@ -19,11 +19,11 @@ const Profile = () => {
             </figure>
 
             <div className='profile_information'>
-                Studie:
+                <b> Studie: </b> Kybernetikk og Robotikk
+                <br/> 
+                <b>LinkedIn: </b> <a href="https://www.linkedin.com/in/simen-myhre-waitz-149224179/"> Simen Myhre Waitz</a>
                 <br/>
-                LinkedIn:
-                <br/>
-                Født:
+                <b> Født:</b> 03.08.1999
                 <div className ="button_container">
                     <CustomButton text={"Last ned CV"} /*icon={GetAppIcon} *//>
                 </div>

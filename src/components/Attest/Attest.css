@@ -1,19 +1,17 @@
 .attest{
-    background-color: grey;
-    color: white;
+    background-color: darkgrey;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height : 100px;
+    min-height : 50px;
     border-radius: 8px;
     padding: 20px 25px;
-    max-width: 50%;
+    max-width: 100%;
 }
 
-/*.attest .attest_lef{
 
-}
 
 .attest .attest_right{
-
-}*/
+    margin-right: 20%;
+}
