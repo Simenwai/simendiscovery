@@ -6,7 +6,6 @@ import {Link} from "react-router-dom"
 
 import CustomButton from '../Button/Button'
 
-import bdo from "./BDO.pdf"
 import dnv from "./DNV.pdf"
 
 const Attest = () => {
@@ -16,7 +15,7 @@ const Attest = () => {
                 ATTESTER:
             </div>
             <div className="attest_left">
-                <a href={bdo} target="blank"><img src={logoBDO} width="100px" alt="BDO Logo"/></a>
+                <a href={process.env.PUBLIC_URL + "/BDO.pdf"} target="blank"><img src={logoBDO} width="100px" alt="BDO Logo"/></a>
             </div>
             <div className="attest_right">
                 <a href={dnv} target="blank"><img src={logoDNV} width="130px" alt="DNV Logo"/></a>
