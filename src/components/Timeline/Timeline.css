@@ -1,0 +1,18 @@
+
+
+.timeline .timeline_dot_header{
+    background-color: #8a2ae3;
+    color: black;
+}
+
+.timeline .timeline_dot{
+    font-size: small;
+}
+
+.timeline .timeline_content{
+    font-size: 13px;
+}
+
+.MuiTimelineItem-missingOppositeContent:before {
+    max-width:10px;
+}

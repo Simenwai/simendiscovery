@@ -1,11 +1,10 @@
 import React from 'react'
 import {Button } from '@material-ui/core'
 import './Button.css'
-const CustomButton = ({text, icon}) => {
+const CustomButton = (props) => {
     return (
-        <Button className='custom_btn' 
-        endIcon={icon ? <div className='custom_btn_icon_container'>{icon}</div> : null}>
-        <span className='btn_text'>{text}</span>
+        <Button className='custom_btn' href={props.href} target="_blank">
+            <span className='btn_text' >{props.text}</span>
         </Button>
     )
 }

@@ -1,7 +1,13 @@
 import React from 'react'
 import './Attest.css'
+import logoBDO from "./BDO_logo.jpg"
+import logoDNV from "./DNV_GL_logo.svg.png"
+import {Link} from "react-router-dom"
 
 import CustomButton from '../Button/Button'
+
+import bdo from "./BDO.pdf"
+import dnv from "./DNV.pdf"
 
 const Attest = () => {
     return (
@@ -10,10 +16,10 @@ const Attest = () => {
                 ATTESTER:
             </div>
             <div className="attest_left">
-                <a href="BDO.pdf"><img src="BDO_logo.jpg" alt="BDO Logo"/></a>
+                <a href={bdo} target="blank"><img src={logoBDO} width="100px" alt="BDO Logo"/></a>
             </div>
             <div className="attest_right">
-                <CustomButton text="DNV"></CustomButton>
+                <a href={dnv} target="blank"><img src={logoDNV} width="130px" alt="DNV Logo"/></a>
             </div>
         </div>
     )

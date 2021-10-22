@@ -1,6 +1,6 @@
 import React from 'react';
 import {Container, Grid} from '@material-ui/core';
-
+import {BrowserRouter} from 'react-router-dom';
 /*import Component from './components/Components'*/
 import Profile from './components/Profile/Profile'
 import Header from './components/Header/Header'
@@ -20,8 +20,7 @@ function App() {
         /*style={{backgroundColor: "blue"}}*/>
           <Profile />
         </Grid> 
-        <Grid item xs style={{backgroundColor: 'whitesmoke'}}>
-          <Header/>
+        <Grid item xs style={{background: 'rgb(36, 35, 35)'}}>
           <Application/>
           <Attest className = 'attest'/>
         </Grid>

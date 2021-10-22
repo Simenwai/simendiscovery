@@ -1,10 +1,11 @@
 import { Typography } from '@material-ui/core'
 import React from 'react'
-/*import CustomTimeline from '../Timeline/Timeline'*/
-
-import './Profile.css'
+import CustomTimeline from '../Timeline/Timeline'
+import profilePicture from "./Profilbilde.jpg"
 import CustomButton from '../Button/Button'
-/*import GetAppIcon from '@mui/icons-material/GetApp';*/
+import GetAppIcon from '@material-ui/icons/GetApp';
+import "./Profile.css"
+import cv from "./CV.pdf"
 
 const Profile = () => {
     return (
@@ -15,7 +16,7 @@ const Profile = () => {
             </div>
             
             <figure className='profile_image'>
-                <img src = "Profilbilde.jpg" alt="Profilbilde" />
+                <img src={profilePicture} width="100%" alt="Profilbilde" />
             </figure>
 
             <div className='profile_information'>
@@ -25,7 +26,7 @@ const Profile = () => {
                 <br/>
                 <b> Født:</b> 03.08.1999
                 <div className ="button_container">
-                    <CustomButton text={"Last ned CV"} /*icon={GetAppIcon} *//>
+                    <CustomButton text="Last ned CV" href={cv}/>
                 </div>
             </div>
         </div>
