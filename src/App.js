@@ -11,6 +11,7 @@ import './App.css';
 
 function App() {
   return (
+    <BrowserRouter>
     <Container className={'top_60'}>
       <Grid container spacing={7}>
         <Grid item 
@@ -26,6 +27,7 @@ function App() {
         </Grid>
       </Grid>
     </Container>
+    </BrowserRouter>
   );
 }
 
