@@ -25,21 +25,21 @@ const Application = () => {
             <Grid Container className=''></Grid>
                 <Grid item className='section_title'>
                     <span></span>
-                    <h3>Søknad til Discovery</h3>
+                    <Typography className="application_title2">Søknad til Discovery</Typography>
                     <Typography className="application_content">
                     Mitt navn er Simen Waitz, og jeg går 3. klasse Kybernetikk og Robotikk på NTNU. Fredag 8. oktober møtte jeg Silje Øvstetun og co. på stand i forbindelse med UKA etterfulgt av en middag på Samfundet. Der ble jeg kjent med Accenture som bedrift og ikke minst med Discovery-programmet. Bedriftsrepresentantenes genuine interesse for selskapet og Discovery-programmet overbeviste meg om at dette er noe jeg måtte søke på! Men hvorfor burde jeg være en del av programmet:
                     </Typography>
                 </Grid>
             {/*Erfaringer*/}
             <Grid Container className='Erfaringer'>
-                <h3>Erfaringer</h3>
+                <Typography className="application_title">Erfaringer</Typography>
                 <CustomTimeline/> 
             </Grid>
 
             {/*Egenskaper*/}
             <Grid Container className=''></Grid>
-                <div className="application_content">
-                <h3>Egenskaper</h3>
+                <Typography className="application_title">Egenskaper</Typography>
+
                 <Typography className="application_content"> Egenskaper dere finner hos meg er at jeg er veldig <b>glad i teamarbeid.</b> Jeg er <b>sosial</b> og har opparbeidet <b>gode kommunikasjonsferdigheter</b> blant annet gjennom flere år som revyskuespiller. I tillegg er jeg kreativ og liker å utfordre konsepter ved å stille spørsmål ved ting eller komme med nye innspill. Noe som jeg har fått inntrykk av at er rom for hos dere i Accenture. 
                 </Typography>
                 <Typography className="application_content">Jeg er <b>engasjert og investert</b> i alt jeg gjør. Det er ikke nok timer i løpet av et døgn til å få tid til alt man vil, og som student er det lett å prioritere vekk seg selv når det trekkes i tråder fra mange kanter. Å ha mulighet til <b>å ha en en-til-en mentor er derfor optimalt for meg.</b> Både for å få tips til struktur i hverdagen, til studieteknikker i ulike fag og generelt det å ha en sparringspartner som vet hva studieløpet omhandler.   
@@ -48,8 +48,7 @@ const Application = () => {
                 </Typography>
                 <Typography className="application_content">Håper på å høre fra dere!</Typography>
                 <Typography className="application_content"> <b>Mvh. Simen Waitz</b></Typography>
-
-                </div>
+                
             </>
         </div>
     )

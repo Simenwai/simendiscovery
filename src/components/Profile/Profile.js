@@ -6,6 +6,8 @@ import CustomButton from '../Button/Button'
 import GetAppIcon from '@material-ui/icons/GetApp';
 import "./Profile.css"
 import cv from "./CV.pdf"
+import GetApp from '@material-ui/icons/GetApp'
+
 
 const Profile = () => {
     return (

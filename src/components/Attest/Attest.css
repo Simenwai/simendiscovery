@@ -2,17 +2,20 @@
     background-color: white;
     color: black;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     flex-wrap: wrap;
+    flex-direction: column;
+
     min-height : 50px;
     border-radius: 8px;
     padding: 20px 25px;
-    max-width: 100%;
 }
 
+h3 {
+    text-align: center;
+}
 
-
-.attest .attest_right{
-    margin-right: 20%;
+.img_container {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
 }

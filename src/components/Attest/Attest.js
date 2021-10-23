@@ -11,15 +11,17 @@ import dnv from "./DNV.pdf"
 const Attest = () => {
     return (
         <div className='attest'>
-            <div className="attest_title">
-                <b>ATTESTER:</b>
-            </div>
-            <div className="attest_left">
-                <Link to={process.env.PUBLIC_URL + "/BDO.pdf"} target="blank"><img src={logoBDO} width="130px" alt="BDO Logo"/></Link>
-            </div>
-            <div className="attest_right">
-                <a href={dnv} target="blank"><img src={logoDNV} width="130px" alt="DNV Logo"/></a>
-            </div>
+                <div>
+                    <h3>Attester</h3>
+                </div>
+                <div className="img_container">
+                    <div className="attest_left">
+                        <Link to={process.env.PUBLIC_URL + "/BDO.pdf"} target="blank"><img src={logoBDO} width="100px" alt="BDO Logo"/></Link>
+                    </div>
+                    <div className="attest_right">
+                        <a href={dnv} target="blank"><img src={logoDNV} width="100px" alt="DNV Logo"/></a>
+                    </div>
+                </div>
         </div>
     )
 }

@@ -13,6 +13,12 @@
 .application_title{
     font-weight: bold;
     margin-left: 14px;
+    margin-top: 12px;
+}
+
+.application_title2{
+    font-weight: bold;
+    margin-left: 14px;
 }
 
 .application_subtitle{
