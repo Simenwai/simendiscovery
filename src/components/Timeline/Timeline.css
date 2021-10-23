@@ -11,6 +11,7 @@
 
 .timeline .timeline_content{
     font-size: 13px;
+    margin: 8px;
 }
 
 .MuiTimelineItem-missingOppositeContent:before {

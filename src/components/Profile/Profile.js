@@ -21,10 +21,15 @@ const Profile = () => {
 
             <div className='profile_information'>
                 <b> Studie: </b> Kybernetikk og Robotikk
-                <br/> 
-                <b>LinkedIn: </b> <a href="https://www.linkedin.com/in/simen-myhre-waitz-149224179/"> Simen Myhre Waitz</a>
                 <br/>
                 <b> Født:</b> 03.08.1999
+                <br/>
+                <b> Telefon:</b> +47 47264030
+                <br/>
+                <b> Mail</b> Simen.myhre.w@gmail.com
+                <br/> 
+                <b>LinkedIn: </b> <a href="https://www.linkedin.com/in/simen-myhre-waitz-149224179/"> Simen Myhre Waitz</a>
+
                 <div className ="button_container">
                     <CustomButton text="Last ned CV" href={cv}/>
                 </div>

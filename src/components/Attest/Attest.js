@@ -12,10 +12,10 @@ const Attest = () => {
     return (
         <div className='attest'>
             <div className="attest_title">
-                ATTESTER:
+                <b>ATTESTER:</b>
             </div>
             <div className="attest_left">
-                <Link to={process.env.PUBLIC_URL + "/BDO.pdf"} target="blank"><img src={logoBDO} width="100px" alt="BDO Logo"/></Link>
+                <Link to={process.env.PUBLIC_URL + "/BDO.pdf"} target="blank"><img src={logoBDO} width="130px" alt="BDO Logo"/></Link>
             </div>
             <div className="attest_right">
                 <a href={dnv} target="blank"><img src={logoDNV} width="130px" alt="DNV Logo"/></a>
