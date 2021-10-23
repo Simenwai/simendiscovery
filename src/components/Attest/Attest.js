@@ -12,7 +12,7 @@ const Attest = () => {
     return (
         <div className='attest'>
                 <div>
-                    <h3>Attester</h3>
+                    <h3>Se mine attester Attester: </h3>
                 </div>
                 <div className="img_container">
                     <div className="attest_left">
